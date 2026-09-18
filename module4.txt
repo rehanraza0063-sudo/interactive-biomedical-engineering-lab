@@ -1,0 +1,342 @@
+03-09-2025
+
+             DIAGNOSTIC AND MONITORING                                        Semester-V: Biomedical Engineering
+
+MODULE-4:BLOOD FLOW METER AND CARDIAC OUTPUT
+
+                                                   Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+  BLOOD FLOW METERS
+  Blood flow is one of the most important physiological parameters and also one of
+  the most difficult to measure accurately.
+  This is because instruments for measuring the flow through blood vessels within the
+  body have to meet certain stringent specifications; e.g. sensitivity and stability
+  requirements depend upon the magnitude of flow, location and the diameter of the
+  individual vessels.
+
+                                                                                                                                              1
+
+                                                                                                                                        03-09-2025
+
+                                                     Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+BLOOD FLOW METERS
+There are many widely used techniques for measuring the blood flow and velocity.
+They are categorized into invasive (surgical) and non-invasive (through the skin).
+The most accurate method, obviously, is to simply sever the vessel and time the blood
+flow into a calibrated beaker.
+ But this procedure is too radical for most protocols.
+
+                                                     Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+ELECTROMAGNETIC BLOOD FLOW METERS
+With this type of instrument, blood flow can be measured in intact blood vessels
+without cannulation and under conditions which would otherwise be impossible.
+However, this method requires that the blood vessel be exposed so that the flow
+head or the measuring probe can be put across it.
+     Faraday’s law of electromagnetic induction which states that when a
+  conductor is moved at right angles through a magnetic field in a direction
+  at right angles both to the magnetic field and its length, an emf is induced
+                                in the conductor
+
+                                                                                                                                                2
+
+                                                                                                                                          03-09-2025
+
+                                                       Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+           ELECTROMAGNETIC BLOOD FLOW METERS
+The blood stream, which is a conductor, cuts the magnetic field and voltage is induced in the
+blood stream.
+This induced voltage is picked up by two electrodes incorporated in the magnetic assembly.
+The magnitude of the voltage picked up is directly proportional to the strength of the
+magnetic field, the diameter of the blood vessel and the velocity of blood flow.
+ e = CHVd
+ where e = induced voltage
+ H = strength of the magnetic field
+ V = velocity of blood flow
+ d = diameter of the blood vessel
+ C = constant of proportionality
+
+                                                       Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+ELECTROMAGNETIC BLOOD FLOW METERS
+ e = CHVd
+ If the strength of the magnetic field and the diameter of the blood vessel remain unchanged,
+ then the induced voltage will be a linear function of the blood flow velocity.
+ Therefore, 𝑒 = 𝐶 𝑉
+ Where 𝐶 is a constant and equal to CHd.
+The induced voltage picked up by the electrodes is amplified and displayed/recorded on a
+suitable system.
+The system is calibrated in terms of volume flow as a function of the induced voltage.
+The diameter of the blood vessel is held constant by the circumference of the hole in the
+probe that surrounds it.
+
+                                                                                                                                                  3
+
+                                                                                                                                   03-09-2025
+
+ELECTROMAGNETIC BLOOD FLOW METERS
+The average flow velocity appears to be 20 to 25 cm/s in
+ arteries and 10 to 12 cm/s in veins.
+For designing the probe, velocity for the cardiovascular
+system is taken as 15 cm/s.
+
+TYPES OF ELECTROMAGNETIC BLOOD FLOW
+METERS
+ Sine Wave Flowmeters
+In a sine wave flowmeter, the probe magnet is energized with a sine wave and
+consequently the induced voltage will also be sinusoidal in nature.
+The major problem encountered with the sinusoidal type of magnetic field is that the
+blood vessel and the fluid contained in it act as the secondary coil of a transformer
+when the probe magnet is excited.
+As a result, in addition to the induced flow voltage, there is an induced artefact
+voltage generally referred to as ‘transformer voltage’.
+
+                                                                                                                                           4
+
+                                                                                                                                       03-09-2025
+
+                                                   Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+TYPES OF ELECTROMAGNETIC BLOOD FLOW
+METERS
+ Sine Wave Flowmeters
+The ‘transformer voltage’ is much larger than the signal or flow induced voltage and
+is 90° out of phase with it.
+In earlier versions of sine wave flowmeters, this unwanted voltage was eliminated by
+injecting into the signal a voltage of equal strength, but having an opposite phase.
+ Gated sine wave flowmeter: permit the amplification of the signals only during the
+ portion of the cycle where flow induced voltages are maximum and the transformer
+ induced voltages are minimum
+ Square Wave Flowmeters
+
+                                                   Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+ULTRASONIC BLOOD FLOW METERS
+ Doppler-shift Flow-Velocity Meters
+It is a non-invasive technique to measure blood velocity in a particular vessel from
+the surface of the body.
+It is based on the analysis of echo signals from the erythrocytes in the vascular
+structures.
+Because of the Doppler effect, the frequency of these echo signals changes relative
+to the frequency which the probe transmits.
+ The Doppler frequency shift is a measure of the size and direction of the flow
+ velocity.
+
+                                                                                                                                               5
+
+                                                                                                                                        03-09-2025
+
+                                                    Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+ULTRASONIC BLOOD FLOW METERS
+The incident ultrasound is scattered by the blood cells and the scattered wave is
+received by the second transducer.
+The frequency shift due to the moving scatterers is proportional to the velocity of the
+scatterers.
+Alteration in frequency occurs first as the ultrasound arrives at the ‘scatterer’ and
+second as it leaves the scatterer.
+
+                                                    Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+ULTRASONIC BLOOD FLOW METERS
+
+ where f = change in frequency
+ C = velocity of sound in blood
+ q = angle of inclination of the incident wave to the direction of blood flow
+ v = velocity of blood cells
+
+                                                                                                                                                6
+
+                                                                                                                                           03-09-2025
+
+CARDIAC OUTPUT MEASUREMENT
+ Cardiac Output is a term used in cardiac physiology that describes the volume of
+  blood being pumped by the heart, in particular by the left or right ventricle, per
+                                     unit time
+ Cardiac output is the product of the heart rate (HR), or the number of heart beats
+ per minute (bpm), and the stroke volume (SV), which is the volume of blood pumped
+ from the ventricle per beat;
+                                     CO = HR × SV
+ Values for cardiac output are usually denoted as L/min. For a healthy person
+ weighing 70 kg, the cardiac output at rest averages about 5 L/min; assuming a heart
+ rate of 70 beats/min, the stroke volume would be approximately 70 mL.
+
+CARDIAC OUTPUT MEASUREMENT
+
+                        Major factors influencing cardiac output
+
+                                                                                                                                                   7
+
+                                                                                                                        03-09-2025
+
+CARDIAC OUTPUT MEASUREMENT
+Methods for CO Measurement
+1. Doppler ultrasound
+2. Pulse pressure methods
+3. Impedance cardiography
+4. Ultrasound dilution
+5. Electrical cardiometry
+6. Magnetic resonance imaging
+7. Dye dilution method
+
+CARDIAC OUTPUT MEASUREMENT
+In 1897 Stewart injected a bolus of a sodium chloride solution
+into the central venous circulation of anesthetized dogs and rabbits,
+and then collected blood samples containing diluted sodium
+chloride from a femoral artery catheter.
+An electric transducer on the contralateral femoral artery sensed
+the arrival of diluted injectate.
+
+                                                                                                                                8
+
+                                                                                                                                      03-09-2025
+
+INDICATOR DILUTION METHOD
+ A cardiac output measurement by indicator dilution has three principal
+ phases:
+ (a) an indicator is brought into the circulation (injection)
+ (b) the indicator mixes with the bloodstream (mixing and dilution)
+ (c) the concentration of the indicator is determined downstream (detection)
+
+                                                  Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+INDICATOR DILUTION METHOD
+Indicator dilution principle states that if we introduce into or remove from a stream
+of fluid a known amount of indicator and measure the concentration difference
+upstream and downstream of the injection (or withdrawal) site, we can estimate the
+volume flow of the fluid.
+The method employs several different types of indicators.
+Two methods are generally employed for introducing the indicator in the blood
+stream, viz: it may be injected at a constant rate or as a bolus.
+The method of continuous infusion suffers from the disadvantage that most indicators
+recirculate, and this prevents a maxima from being achieved
+
+                                                                                                                                              9
+
+                                                                                                                                          03-09-2025
+
+INDICATOR DILUTION METHOD
+In the bolus injection method, a small but known quantity of an indicator such as a
+dye or radioisotope is administered into the circulation.
+It is injected into large vein or preferably into the right heart itself.
+After passing through the right heart, lungs and the left heart, the indicator appears
+in the arterial circulation.
+The presence of an indicator in the peripheral artery is detected by a suitable
+(photoelectric) transducer and is displayed on a chart recorder.
+
+INDICATOR DILUTION METHOD
+This way we get the cardiac output curve shown in Fig. This is also called the dilution
+curve.
+
+                                                                                                                                                 10
+
+                                                                                                                                           03-09-2025
+
+INDICATOR DILUTION METHOD
+During the first circulation period, the indicator would mix up with the blood and will dilute
+just a bit. When passing before the transducer, it would reveal a big and rapid change of
+concentration. This is shown by the rising portion of the dilution curve.
+Had the circulation system been an open one, the maximum concentration would have been
+followed by an exponentially decreasing portion so as to cut the time axis as shown by the
+dotted line.
+The circulation system being a closed one, a fraction of the injected indicator would once
+again pass through the heart and enter the arterial circulation.
+A second peak would then appear. When the indicator is completely mixed up with blood,
+the curve becomes parallel with the time axis.
+The amplitude of this portion depends upon the quantity of the injected indicator and on the
+total quantity of the circulating blood.
+
+INDICATOR DILUTION METHOD
+ For calculating the cardiac output from the dilution curve, assume that
+ M = quantity of the injected indicator in mg
+ Q = cardiac output
+
+                                              Suppose that 10 mg of the indicator was injected and the
+                                              average concentration as calculated from the curve was 5
+                                              mg/l for a curve duration of 20 s
+
+                                                                                                                                                  11
+
+                                                                                                                                    03-09-2025
+
+                                                            Ref.: Medical Instrumentation-John G. Webster
+
+DYE DILUTION METHOD
+A common method of clinically measuring cardiac output is to use a colored dye,
+indocyanine green (cardiogreen).
+ Inert
+ Harmless
+ Measurable
+ Economical
+ Always intravascular
+
+Optical characteristics of cardiogreen is 805 nm. At this wavelength the
+measurements are independent of oxygenation status.
+50% of dye is excreted by the kidneys in the first 10 min, so repeat determinations
+are possible.
+
+DYE DILUTION METHOD
+The plot of the curve for concentration versus time is obtained from a constant flow
+pump, which draws blood from a catheter placed in the femoral or brachial artery.
+Blood is drawn through a colorimeter cuvette which continuously measures the
+concentration of dye, using the principle of absorption photometry
+
+                                                                                                                                           12
+
+                                                                                                                                        03-09-2025
+
+                                                    Ref.: Handbook of Biomedical Instrumentation-R.S. Khandpur
+
+THERMAL DILUTION METHOD
+ A thermal indicator of known volume introduced into either the right or left
+ atrium will produce a resultant temperature change in the pulmonary artery or
+ in the aorta respectively, the integral of which is inversely proportional to the
+ cardiac output.
+
+ Practical Difficulty
+ The technique of cannulation of the internal jugular vein and the difficulty of floating
+ small catheters into the pulmonary artery prevented a rapid clinical acceptance of
+ the technique.
+
+THERMAL DILUTION METHOD
+ Swan Ganz Triple Lumen Baloon Catheter
+
+                                                                                                                                               13
+
+                                                                                                                                03-09-2025
+
+THERMAL DILUTION METHOD
+ Swan Ganz Triple Lumen Baloon Catheter 1.First lumen measure pressure during
+                                        catheter insertion, and pressure in pulmonary
+                                        artery.
+                                        2. Second lumen measures pressure in Right
+                                        Atrium and also to inject cold injectate
+                                        3. A third lumen is used to inflate the balloon.
+                                        4. The wires connecting the thermistor are
+                                        contained in a fourth lumen. Thermistor floats
+                                        in Pulmonary Artery
+
+THERMAL DILUTION METHOD
+ Computation of Cardiac Output
+
+                                                                                                                                       14
+
+                                                                                                                                         03-09-2025
+
+THERMAL DILUTION METHOD
+ Computation of Cardiac Output
+A solution of 5% Dextrose in water at room temperature is injected as a thermal indicator
+into the right atrium.
+It mixes in the right ventricle, and is detected in the pulmonary artery by means of a
+thermistor mounted at the tip of a miniature catheter probe.
+The injectate temperature is also sensed by a thermistor and the temperature difference
+between the injectate and the blood circulating in the pulmonary artery is measured.
+The reduction in temperature in the pulmonary artery (due to the passage of the Dextrose) is
+integrated with respect to time and the blood flow in the pulmonary artery is then computed
+electronically by an analog computer which also applies correction factors.
+A meter provides a direct reading of cardiac output after being muted until integration is
+complete so as to avoid spurious indications during a determination.
+
+                                                                                                                                                15

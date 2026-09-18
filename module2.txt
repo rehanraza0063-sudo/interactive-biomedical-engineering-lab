@@ -1,0 +1,465 @@
+Diagnostic& Monitoring
+        Equipment (DME)
+             Biomedical Engineering
+              Sem-V (A.Y. 2025-26)
+
+Module 2: Arrhythmia and
+                                  Assistant Professor
+
+Cardiac Arrhythmia
+▪ Cardiac Arrhythmia is an irregularity of heartbeat that causes
+ the heart to beat too slow or very fast.
+▪ Some arrhythmias are dangerous and may require medical
+ attention while some are less hazardous.
+▪ An abnormally faster heart rate is called tachycardia.
+▪ An abnormally slower heart rate is called bradycardia.
+
+Causes of Arrhythmia
+Causes of this arrhythmia
+▪ Sinus node not able to generate enough heart beats.
+▪ Rhythm of sinus node becomes abnormal.
+▪ Atria takes over the functions of SA node.
+▪ Interruption in the electrical wiring of the heart.
+▪ Ventricles not able to beat effectively called ventricular fibrillation.
+
+Symptoms
+▪ Palpitations:
+▪ Throbbing
+▪ Pounding
+▪ Thumping
+▪ Fluttering
+▪ Some people feel dizzy or pain
+▪ Chest Pain
+
+Types of Arrhythmia
+▪ Arrhythmia may be classified by rate (normal, tachycardia,
+ bradycardia), or mechanism (automaticity, reentry, fibrillation).
+▪ It is also appropriate to classify by site of origin
+  ▪ Atrial
+  ▪ Ventricular
+
+Atrial Arrhythmia
+▪ Premature Atrial Contractions (PACs) are one type of premature
+ heartbeat, irregular heartbeat, or benign arrhythmia. These ectopic
+ beats occur in the upper two chambers of the heart, called the atria.
+Causes:
+▪ Some cells in the heart start to fire or go off before the normal
+ heartbeat is supposed to occur. This happens in the sino atrial
+ node (SA node). These can be cells that are sick, have been damaged
+ by a virus
+
+Atrial Arrhythmia
+Wandering pacemaker
+▪ In cardiology, a wandering pacemaker is an atrial arrhythmia that
+ occurs when the natural cardiac pacemaker site shifts between the SA
+ node, the atria, and/or the AV node.
+Causes:
+▪ A wandering pacemaker is usually caused by varying vagal tone.
+
+Atrial Arrhythmia
+▪ Atrial flutter (AFL) is an abnormal heart rhythm that occurs in
+ the atria of the heart. When it first occurs, it is usually
+ associated with a fast heart rate or tachycardia (beats over 100
+ per minute)
+▪ Causes: hypertension, coronary artery disease
+
+Atrial Arrhythmia
+▪ Atrial fibrillation (AF or A-fib) is the most common cardiac
+ arrhythmia (abnormal heart rhythm), and involves the two upper
+ chambers (atria) of the heart. Its name comes from the fibrillating (i.e.,
+ quivering) of the heart muscles of the atria, instead of a coordinated
+ contraction.
+Causes: Hypertension (High blood pressure)
+▪ Primary heart diseases including coronary artery disease, mitral
+ stenosis
+▪ Lung diseases
+▪ Excessive alcohol consumption
+
+Atrial Arrhythmia
+▪ Supraventricular tachycardia (SVT) is any tachycardic rhythm
+ originating above the ventricular tissue.
+
+Atrial Arrhythmia
+▪ Junctional    rhythm    describes    an    abnormal      heart
+ rhythm resulting from impulses coming from a locus of tissue in
+ the area of the atrioventricular node, the "junction" between
+ atria and ventricles
+▪ This can happen in the case of a block in conduction somewhere
+ along     the     pathway.     When      this    happens,       the
+ heart's atrioventricular node takes over as the pacemaker.
+
+Ventricular Arrhythmia
+▪ A Premature Ventricular Contraction       (PVC), is a relatively
+ common event where the heartbeat is initiated by the
+ heart ventricles rather than by the sinoatrial node.
+▪ In a PVC, the ventricles contract first, which means that
+ circulation is inefficient.
+
+Ventricular Arrhythmia
+▪ Ventricular fibrillation (V-fib or VF) is a condition in which there
+  is uncoordinated contraction of the cardiac muscle of
+  the ventricles in the heart, making them quiver rather than
+  contract properly.
+Causes:
+▪ Abnormal automaticity
+▪ Ventricular fibrillation is a cause of cardiac arrest and sudden
+  cardiac death.
+
+Arrhythmia Monitors
+An arrhythmia monitor is basically a sophisticated alarm
+system
+▪ Scans ECG Patterns and issues alarms.
+▪ Most significantly detects ventricular arrhythmias.
+▪ With availability of low-cost PC’s desktop arrhythmia monitors
+  are also available.
+▪ Most are ventricular oriented.
+▪ Detects premature QRS Complexes, widened QRS.
+▪ Each patient's ECG may differ so, determinations are done on
+  reference obtained from same patient.
+
+Arrhythmia monitors operates in
+following order
+▪ Storing Normal QRS Complex, particularly QRS width and R-R
+ Interval.
+▪ Gives and alarm when any abnormal beat is detected.
+▪ Gives alarm light signals whenever premature or widened
+ varieties exist upto rate of 5/min or 12/min.
+▪ Detects and Triggers alarms when artifacts are present at
+ sources e.g. muscle tremor due to patient movement, base line
+ shift and improperly connected electrodes.
+
+Block diagram of Arrhythmia Monitor
+1. Signal Conditioning
+    • Single or multi lead ECG
+      may be used
+    • Two or more leads.
+    • ECG amplified, filtered
+      (0.05-100      Hz      for
+      diagnostic)
+    • For monitoring (1-40 Hz)
+    • A-D Conversion 8-12 bit
+    • Sampled at 250 Hz
+
+Block diagram of Arrhythmia Monitor
+2. Noise Detection
+    • Baseline wander, motion
+       artifacts, muscle noise
+       may interfere.
+    • Signal            processing
+       techniques       used    to
+       minimize.
+
+Block diagram of Arrhythmia Monitor
+3. QRS Detection
+   • Prerequisites       for      Arrhythmia
+      monitoring-     Reliable     R        wave
+      detection.
+   • QRS have unique characteristics-
+      steep and large amplitude variation.
+   • Use     of     Bandpass      filter     with
+      bandwidth     15   Hz      and       Center
+      Frequency 10-12 Hz
+
+Block diagram of Arrhythmia Monitor
+4. Morphology Characterization
+    • Analyzing the shape of the
+       QRS Complex.
+    • Separating      beats      into
+       groups of cluster of similar
+       morphology
+
+Block diagram of Arrhythmia Monitor
+5. Timing Classification
+
+    • Categorizing as on time.
+
+    • Calculation of R-R Interval
+
+    • R-R- interval is declared premature if it is
+
+       less than 85% of the predicted value.
+
+    • R-R Interval is long if it is greater than
+
+       110% of the predicted value.
+
+Block diagram of Arrhythmia Monitor
+6. Beat Labelling
+
+    • Physiologic label is assigned to each
+
+       QRS Complex.
+
+    • Eg.       Normal,       supraventricular
+
+       premature, PVC etc.
+
+Block diagram of Arrhythmia Monitor
+7. Rhythm Labelling
+
+   • Determining kind of arrhythmic event.
+
+Block diagram of Arrhythmia Monitor
+8. Atrial Fibrillation Detection
+
+    • Detection of abnormal rhythms from the
+
+       timing sequence of QRS Complexes
+
+9. V-Fib Detection
+
+    • Based of frequency domain analysis
+
+Block diagram of Arrhythmia Monitor
+10. Summary Statistics
+
+    • Characterizing the events in the form of
+
+      table or graphically.
+
+    • Trends Plots
+
+11. Alarms
+
+    • Alarms for attention of nursing staff.
+
+P Wave and QRS Wave Detection
+Technique
+Based on ST/AR (ST and arrhythmia) algorithm from hewlett
+Packard: Processes ECG for both paced and non paced patients
+
+Actions performed
+▪ Filtering signal
+▪ Detecting and classifying QRS
+▪ Generating heart rate
+▪ Identifying irregular rhythms
+▪ Generating alarms
+
+P Wave and QRS Wave Detection
+Technique
+
+  ST/AR (ST and Arrhythmia) Algorithm by Hewlett
+                     Packard
+
+P Wave and QRS Wave Detection
+Technique
+                                          ▪ After a QRS complex is identified, a search is
+                                            made on each lead independently in the area
+                                            prior to the R wave to determine if there is
+                                            an associated P wave.
+                                          ▪ This area is 200 ms wide and ends 120 ms
+                                            before the R wave peak.
+                                          ▪ To be accepted as a P wave, it must be at
+                                            least 1/32 of the R wave height and the P–R
+                                            interval must be close to the average P–R
+                                            interval.
+                                          ▪ P wave detection is used to differentiate
+                                            between     a   Sinus    Rhythm       and    a
+                                            Supraventricular (SV) Rhythm.
+
+P Wave and QRS Wave Detection
+Technique
+▪ Once the QRS is detected and measured, the beat is labelled.
+▪ Labelling means that the algorithm assigns the complex one of the
+  following labels:
+   ▪ normal (N)
+   ▪ supraventricular premature (S)
+   ▪ ventricular ectopic (V)
+   ▪ paced (P)
+   ▪ questionable (?)
+   ▪ learning (L).
+   If the signal quality is not good, the algorithm assigns the label
+   “inoperative (I)” and “artifact (A)”.
+
+Ambulatory Monitoring
+Ambulatory Monitoring
+ ▪ Medical examination involves number of
+  chemical,         physical         and          electro
+  physiological measurements
+ ▪ Short duration measurements
+
+ ▪ If   any functional test is required in
+  response          to       persons             behavior
+  measurements have to be made over long
+  time
+
+Ambulatory Monitoring
+▪Ambulatory Monitoring
+
+“Objective of ambulatory monitoring is to record one or more
+physiological variables continuously or repeatedly, without
+spontaneous activities of the subject by the restraints of
+conventional             laboratory              instrumentation   and   without
+influencing variable being measured”
+
+Ambulatory Monitoring
+
+  ▪ Provides           data        which         can   help   in   diagnosis   of
+
+    unexplained symptoms.
+
+  ▪ Evaluation of drug therapy, stress testing, artificial
+
+    pacemakers, status of MI
+
+Ambulatory Monitoring
+▪Ambulatory               monitoring of
+  ECG          is       called          “Holter
+  Cardiography”.
+
+▪Named           after Dr. Norman
+  Holter who introduced this
+  concept in 1962.
+
+Ambulatory Instruments
+Two types are available
+Tape based or solid state systems
+
+      •   Continuous recording for 24-72 hours
+
+      •   Entire data available for retrieval, review and editing
+
+Ambulatory Instruments
+Two types are available
+Event Time activated/Patient Demand recorder
+
+      •   Limited monitoring.
+
+      •   Records event both before and after symptoms.
+
+      •   Recording is activated by a press of a button.
+
+Ambulatory Instruments
+Two important                 section        of   the   Ambulatory   Monitoring
+Instruments
+
+   1. Data Recording Unit
+   2. Data replay and analysis system
+
+Ambulatory Instruments
+Data recording unit of an ambulatory monitoring instrument
+• Sub miniature tape recorder running at a speed of 2 mm/s
+• A complete record for 24 h
+   • Used in cardiovascular studies
+   • EEG Recording: study of epilepsy
+   • Ambulatory monitoring of respiration rate
+   • During replay: tape is running at 120mm/sec
+
+Ambulatory Instruments
+
+            Data recording unit of an ambulatory monitoring instrument
+
+Ambulatory Instruments
+Data Replay and Analysis system for Arrhythmia monitor
+ • Problem in examining long term recording, since quantity of
+   data is more.
+ • An excess of 1,00,000 beats .
+ • Tedious work to examining visually.
+ • Events of clinical significance are transitory may last for
+   hardly seconds-this can be missed out.
+
+Ambulatory Instruments
+
+                Data Replay and Analysis system for Arrhythmia monitor
+
+Implementation of ambulatory
+monitoring
+
+                                            Attachment of electrodes for
+                                            ECG and cuff for arterial blood
+                                            pressure    measurement      of
+                                            ambulatory subjects
+
+Implementation of ambulatory
+monitoring
+
+                                                 Wireless Body Area Network
+                                                 of Intelligent Sensors for
+                                                 Ambulatory Health
+                                                 Monitoring
+
+Exercise stress testing
+
+  Stress    test   or     exercise
+  electrocardiography is used
+  when     the    diagnosis     of
+  coronary arterial disease is
+  suspected or to determine the
+  physical           performance
+  characteristics of a patient
+
+ Exercise stress testing
+                                                          HOW?
+▪ The test involves
+❖The recording of the electrocardiogram during dynamic or
+ occasionally isometric exercise
+❖Dynamic exercise is performed by the patient who walks on a
+ treadmill on which the speed and elevation can be adjusted,
+ manually or automatically, to suit a variety of graded exercise
+ protocols
+❖Alternatively, the patient may be asked to pedal an electrically
+ braked bicycle ergometer.
+
+Exercise stress testing                            TYPES?
+▪ Two types of tests
+❖Treadmill Test
+❖Bicycle Test
+
+Exercise stress testing
+                                                        TYPES?
+▪ Two types of tests
+❖Treadmill Test
+▪ The Balke-Ware Protocol: It uses a constant speed of 3.3
+  miles/hour (5.3 km/hour), with progressive increments in the
+  load every 2 minutes. This is achieved by increasing the grade or
+  incline of the motor-driven treadmill. The exercising subject
+  therefore walks “uphill” and his own body weight serves as the
+  load.
+▪ The Bruce Protocol: It uses simultaneous increments in both
+  speed and treadmill grade at intervals of 3 minutes.
+
+ Exercise stress testing
+                                                               TYPES?
+▪ Two types of tests
+❖Bicycle Test
+▪ In this test, the speed is usually kept constant and incremental
+ resistance is applied either mechanically (friction belt or brake pads)
+ or electrically.
+▪ The work load can be precisely measured in terms of kilograms per
+ metre per minute
+▪ In bicycle ergometry, physiological measurements are more easily
+ obtained with the subject comfortably seated and the torso relatively
+ immobile
+
+ Exercise stress testing
+                                                       WHAT?
+The Stress Test Equipment consists of
+1. Exercise Device.
+2. PC Based ECG Display and Recording System.
+3. Blood Pressure Instrument.
+4. Defibrillator.
+5. Sophisticated Algorithms (for artifact free ECG).
+
+ Exercise stress testing                          Interpretation
+
+❖Established tool for the diagnosis of coronary artery
+ disease due to changes observed in the ECG induced by
+ exercise.
+❖Diagnosis of ST segment depression and ST segment
+ elevation.
+
+ Exercise stress testing                          ST Measurement
+
+▪ The    current     standard of
+ determining the ST segment
+ measurement is by measuring
+ the voltage difference between
+ the value at a point 60–80 ms
+ after the J point and the
+ isoelectric baseline.
+▪ The isoelectric baseline is either
+ between the P and Q waves (the
+ P-R interval) or in front of the P-
+ wave (the T-P interval)
+
+Exercise stress testing                          ST Measurement

@@ -1,0 +1,328 @@
+1
+
+                             Biomedical Instrumentation-II
+
+                                    Chapter 3: Patient Monitoring System
+
+1.1 Introduction to patient monitors
+
+A medical monitor or physiological monitor or display, is an electronic medical devicethat measures a
+patient's vital signs and displays the data so obtained, which may or may not be transmitted on a monitoring
+network. Physiological data are displayed continuously on a CRT or LCD screen as data channels along the
+time axis, They may be accompanied by numerical readouts of computed parameters on the original data, such
+as maximum, minimum and average values, pulse and respiratory frequencies, and so on.
+
+In critical care units of hospitals, bedside units allow continuous monitoring of a patient, with medical staff being
+continuously informed of the changes in general condition of a patient. Some monitors can even warn of
+pending fatal cardiac conditions before visible signs are noticeable to clinical staff, such as atrial
+fibrillation or premature ventricular contraction (PVC).
+
+1.1.1 Analog Monitoring
+
+Old analog patient monitors were based on oscilloscopes, and had one channel only, usually reserved for
+electrocardiographic monitoring (ECG). So, medical monitors tended to be highly specialized. One monitor
+would track a patient's blood pressure, while another would measure pulse oximetry, another the ECG. Later
+analog       models    had   a   second   or   third   channel   displayed   in   the    same    screen,   usually   to
+monitor respiration movements and blood pressure. These machines were widely used and saved many lives,
+but they had several restrictions, including sensitivy to electrical interference, base level fluctuations, and
+absence of numeric readouts and alarms. In addition, although wireless monitoring telemetry was in principle
+possible (the technology was developed by NASA in the late 1950s for manned spaceflight, it was expensive
+and cumbersome.
+
+1.1.2 Digital Monitoring
+
+With the development of digital signal processing (DSP) technology, however, medical monitors evolved
+enormously, and all current models are digital, which also has the advantages of miniaturization and portability.
+Today the trend is toward multiparameter monitors that can track many different vital signs at once. The
+parameters (or measurements) now consist of pulse oximetry (measurement of the saturated percentage
+of oxygen in the blood, referred to as SpO2, and measured by an infrared finger cuff), ECG (electrocardiograph
+of the QRS waves of the heart with or without an accompanying external heart pacemaker), blood
+pressure (either invasively through an inserted blood pressure transducer assembly, or non-invasively with an
+inflatable     blood     pressure    cuff),    and body     temperature through         an adhesive    pad containing
+athermoelectric transducer. In some situations, other parameters can be measured and displayed, such
+as cardiac output (via an invasive Swan-Ganz catheter), capnography (CO2 measurements, referred to
+as EtCO2 or end-tidal carbon dioxide concentration), respiration (through a thoracic transducer belt, an ECG
+channel or via EtCO2, when it is called AWRR or airway respiratory rate), etc.
+
+                                                                              2
+
+     A typical patient monitoring system
+
+Front panel of L&T’s Planet 50 patient monitors
+
+                                                                                                                      3
+
+Besides the tracings of physiological parameters along time (X axis), digital medical monitors have
+automated numeric readouts of the peak and/or average parameters displayed on the screen, and
+high/low alarm levels can be set, which alert the staff when some parameter exceeds of falls the level limits,
+using audible signals.
+
+Several models of multiparameter monitors are networkable, i.e., they can send their output to a central ICU
+monitoring station, where a single staff member can observe and respond to several bedside monitors
+simultaneously. Ambulatory telemetry can also be achieved by portable, battery-operated models which are
+carried by the patient and which transmit their data via a wireless data connection.
+
+1.2 Measurement of heart rate
+
+Heart rate is the number of heartbeats per unit of time, typically expressed as beats per minute (bpm). Heart
+rate can vary as the body's need to absorb oxygen and excrete carbon dioxide changes, such as
+during exercise or sleep.
+
+The measurement of heart rate is used by medical professionals to assist in the diagnosis and tracking of
+medical conditions. It is also used by individuals, such as athletes, who are interested in monitoring their heart
+rate to gain maximum efficiency from their training. The R wave to R wave interval (RR interval) is the inverse of
+the heart rate.
+
+Heart rate is measured by finding the pulse of the body. This pulse rate can be measured at any point on the
+body where the artery's pulsation is transmitted to the surface by pressuring it with the index and middle fingers;
+often it is compressed against an underlying structure like bone. The thumb should not be used for measuring
+another person's heart rate, as its strong pulse may interfere with discriminating the site of pulsation.
+
+Possible points for measuring the heart rate are:
+
+    1. The ventral aspect of the wrist on the side of the thumb (radial artery).
+    2. The ulnar artery.
+    3. The neck (carotid artery).
+    4. The inside of the elbow, or under the biceps muscle (branchial artery).
+    5. The groin (femoral artery).
+    6. Behind the medial malleolus on the feet (posterior tibial artery).
+    7. Middle of dorsum of the foot (dorsalis pedis).
+    8. Behind the knee (popliteal artery).
+    9. Over the abdomen (abdominal aorta).
+    10. The chest (apex of heart), which can be felt with one's hand or fingers. However, it is possible
+         to auscultate the heart using a stethoscope.
+    11. The temple (Superficial Temporal Artery)
+
+                                                                                                                     4
+
+    12. The lateral edge of the Mandible Facial artery.
+
+A more precise method of determining pulse involves the use of an electrocardiograph, or EKG (also
+abbreviated EKG). Continuous electrocardiograph monitoring of the heart is routinely done in many clinical
+settings, especially in critical care medicine. Commercial heart rate monitors are also available, consisting of a
+chest strap with electrodes. The signal is transmitted to a wrist receiver for display. Heart rate monitors allow
+accurate measurements to be taken continuously and can be used during exercise when manual measurement
+would be difficult or impossible (such as when the hands are being used).
+
+1.2.1 Average Heart Rate meters
+
+1.2.2 Instantaneous Heart Rate meters
+
+                                                                                        5
+
+1.2.3 Block diagram of Instantaneous heart rate meter
+
+1.3 Measurement of Pulse Rate
+
+                                                                    6
+
+1.3.1 Electrical Impedance method
+
+1.3.2 Strain gauge method
+
+1.3.3 Photoelectric method
+
+                                                                                              7
+
+1.3.4 Chamber Plythysmography
+
+1.3.4.1 Block diagram for processing plythysmography signal
+
+                                                                                                                   8
+
+1.4 Blood Pressure
+
+Blood pressure is a measurement of the force applied to the walls of the arteries as the heart pumps blood
+through the body. The force and amount of blood pumped, and the size and flexibility of the arteries determine
+the pressure. Unless indicated otherwise, blood pressure is understood to mean arterial blood pressure, i.e. the
+pressure in the large arteries, such as the brachial artery (in the arm). The pressure of the blood in other
+vessels is lower than the arterial pressure. It is measured in mmHg (millimeters of mercury).
+
+1.4.1 SYSTOLIC PRESSURE: Systolic pressure is the force of blood in the arteries as the heart beats. It is
+measured in mmHg.
+
+1.4.2 DIASTOLIC PRESSURE: The pressure exerted on the walls of the arteries when the Heart is in the
+relaxation phase (diastole). It is measured in mmHg.
+
+Blood pressure is always given as these two numbers, the systolic and diastolic pressures. Both are important.
+Usually they are written one above or before the other, such as 120/80-mmHg .The top number is the systolic
+and the bottom the diastolic. When the two measurements are written down, the systolic pressure is the first or
+top number, and the diastolic pressure is the second or bottom number (for example, 120/80). If your blood
+pressure       is       120/80,      you       say        that     it      is       "120       over        80."
+
+Blood pressure changes during the day. It is lowest as you sleep and rises when you get up. It also can rise
+when you are excited, nervous, or active. Blood pressure is continually changing depending on activity,
+temperature, diet, emotional state, posture, physical state, and medication use.
+
+Hypertension, commonly referred to as "high blood pressure" is a medical condition in which the blood
+pressure is chronically elevated. It has four stages:
+
+?   Mild stage 1= 140/90 –160/100 mmHg, only lifestyle change is required.
+?   Moderate stage 2 = 160/100-180/110 mmHg, requires treatment.
+?   Severe stage 3= 180/110-210/120 mmHg, increased risk of cardiovascular disease kidney problems
+?   Very severe stage 4=210/120 and above mm Hg, stroke, heart attack may lead to death
+
+                                                                                                                    9
+
+Hypotension is pressure that is so low that it causes symptoms or signs due to the low flow of blood through
+the arteries and veins. When the flow of blood is too low to deliver enough oxygen and nutrients to vital organs
+such as the brain, heart, and kidney, the organs do not function normally and may be permanently damaged. In
+range of 90/60 to 50/35 patient may feel tired, dizzy and may faint. When BP is less than the above-mentioned
+range, patient may go into coma or die.
+
+                                             Blood Pressure chart
+
+1.4.3 BLOOD PRESSURE MEASUREMENT TECHNIQUES
+
+Blood pressure can be measured invasively, (by penetrating the skin and measuring inside the blood vessels)
+which is restricted to a hospital setting or non-invasively. Invasively BP is measured with the help of a cannula
+needle in artery. Non-invasively BP is measured in two ways i.e. by Auscultatory and Oscillometric method.
+
+                                                                                                                   10
+
+In non-invasive methods we use cuff. The cuff consists of a fabric or synthetic sleeve enclosing a bladder.
+Disposable cuffs, especially those for newborn children (neonates) are often manufactured of welded synthetic
+material with integrated bladder. Since the cuff pressure directly influences the blood flow through the arteria
+brachialis or other arteries - tissue, muscles and bones may be considered as almost incompressible - the ratio
+of upper arm circumference to cuff width is of decisive importance to the accuracy.
+
+1.4.3.1 Direct measurement techniques
+
+1.4.3.2 Extravascular Sensors
+
+                                                                                             11
+
+1.4.3.3 Intravascular Sensors
+
+1.4.3.4 Fiber optic sensors for blood pressure measurement
+
+1.4.4 Blood pressure Waveform distortion
+
+                                                                                                                      12
+
+1.4.5 NON-INVASIVE BLOOD PRESSURE (NIBP) MEASUREMENT
+Non-invasively blood pressure can be measured by two ways i.e. using ascultatory method or oscillometric
+method.
+
+Principle of Non-invasive (Indirect) Blood Pressure Monitoring:
+
+Arterial blood pressure is created by pulsatile blood flow during the ejection phase of the cardiac cycle. Left
+ventricular ejection initiates a pressure wave that precedes the actual flow of arterial blood, creating the pulses
+we palpate.
+
+1.4.5.1 AUSCULTATORY METHOD
+
+Auscultation means the act of listening, either directly or through a stethoscope or other instrument, to sounds
+within the body as a method of diagnosis, which is the main principle of this method.
+
+                                                                                                                       13
+
+The cuff is wrapped around the patient’s upper arm at a point about midway between the elbow and shoulder.
+The stethoscope is placed over an artery distal (i.e. downstream) to the cuff. This placement is preferred
+because the brachial artery comes close to the surface near the antecubital space (i.e. inside elbow) and so is
+easily accessible. The cuff is inflated so that pressure inside the inflated bladder is increased to a point greater
+than the anticipated systolic pressure. This pressure compresses the artery against the underlying bone,
+causing an occlusion that shuts off the flow of blood.
+
+The operator then slowly releases the pressure in the cuff and then listens to the sound in the stethoscope.
+Traditionally, the sounds have been classified as 5 phases:
+
+Phase I: appearance of clear tapping sounds corresponding to the appearance of a palpable pulse;
+
+Phase II: sounds become softer and longer;
+
+Phase III: sounds become crisper and louder;
+
+Phase IV: sounds become muffled and softer; and
+
+Phase V: sounds disappear completely.
+
+The fifth phase is thus recorded as the last audible sound.
+
+                Auscultatory method: Showing sound levels and their corresponding BP values.
+
+The sounds are thought to originate from a combination of turbulent blood flow and oscillations of the arterial
+wall. There is agreement that the onset of phase I corresponds to systolic pressure but tends to underestimate
+the systolic pressure recorded by direct intra-arterial measurement. The disappearance of sounds (phase V)
+corresponds to diastolic pressure but tends to occur before diastolic pressure determined by direct intra-arterial
+measurement. No clinical significance has been attached to phases II and III.
+
+                                                                                                                          14
+
+1.4.5.2 OSCILLOMETRIC METHOD
+
+The auscultatory method has been the mainstay of clinical blood pressure measurement for as long as blood
+pressure has been measured but is gradually being supplanted by oscillometric method.
+
+The equipment is functionally similar to that of the auscultatory method, but with an electronic pressure sensor
+(transducer) fitted in to detect blood flow, instead of using the stethoscope and the expert's ear. The pressure
+sensor is a calibrated electronic device with a numerical readout of blood pressure.
+
+The cuff is fitted on the upper arm. The cuff is inflated to a pressure initially in excess of the systolic blood
+pressure, and then reduces to below diastolic pressure over a period of about 30 seconds. When blood flow is
+nil (cuff pressure exceeding systolic pressure) or unimpeded (cuff pressure below diastolic pressure), cuff
+pressure will be essentially constant. It is essential that the cuff size is correct: undersized cuffs may yield
+too high a pressure, whereas oversized cuffs yield too low a pressure. When blood flow is present, but
+restricted, the cuff pressure, which is monitored by the pressure sensor, will vary periodically in synchrony with
+the cyclic expansion and contraction of the brachial artery, i.e., it will oscillate. Following is the pressure graph
+i.e. pressure in the cuff during measurement.
+
+Initially the cuff is inflated and we get a linearly increasing graph i.e. the cuff inflation part in the graph. During
+this time oscillations in the cuff are of very small amplitude. Then slowly cuff pressure is decreased in intervals
+(step region of graph). While decreasing the pressure in the cuff, there is an interval when the oscillation
+reaches to maximum and then again starts decreasing. The interval where maximum amplitude is seen is when
+arterial pressure equals the cuff pressure. This pressure is known as Mean Arterial Pressure (MAP). This value
+is used to compute the values of systolic and diastolic pressure with the help of algorithms.
+
+                                                                   15
+
+1.5 Respiration rate measurement
+
+1.5.1 Displacement method
+
+1.5.2 Thermistor method
+
+1.5.3 Impedance Pneumogram
+
+                                                                        16
+
+1.5.4 Apnoea Detectors
+
+1.5.5 Block Diagram of apnoea monitor
+
+                                                               17
+
+1.6 Bedside Patient Monitors
+
+                                                                           18
+
+Block diagram of bedside patient monitor
+
+                                                                                                                    19
+
+1.7 Central Monitoring System/ Central Nurse’s Station
+
+Central Nursing Station is a state of the art real-time scalable multiple bed monitoring workstation. It provides
+scalable application framework to acquire, store and review vital parameters from bed side patient monitors.
+Scalability includes beds, monitors, parameters, display elements, storage and reports.
+
+An intensive care unit central nurse’s station is shown in Figure below. Multiconnector cable connects the
+output form the four subject- monitoring sites located beside each intensive care bed to the central nurse’s
+station. Each subject’s ECG is continuously displayed via a four channel CRT display. And also these signals
+are being recorded continuously on a memory loop tape recorder. This tape recorder contains the previous one-
+
+                                                                                                                      20
+
+                                  Block Diagram of Central Nurse’s Station
+
+minute ECG history for each subject by recording the ECG on a tape loop “one minute” in length. Some central
+stations duplicate physiological indicators for relative blood pressure, respiratory activity and body temperature.
+These indicators can be manually switched between the four beds or the switching may be activated by the
+alarm system with the monitors being automatically switched to the bed providing the alarm signal. When an
+alarm is received at the central nurse’s station, it may also be used to connect the appropriate ECG signal to a
+scan converter and ECG chart recorder and to start the chart recorder. In this way, a permanent record is
+achieved on the chart recorder beginning one minute prior to the alarm being sounded and information is
+displayed on the scan converter for transmission via the hospital closed circuit TV system to other medical
+personnel involved. The scan converter and closed-circuit TV system may also incorporate alphanumeric input
+to allow alphanumeric data relating to the intensive care subject to be displayed on television receivers located
+throughout the hospital.
